@@ -8,14 +8,14 @@
           <div class="single_footer_top wow fadeInLeft">
             <h2>Flicker Images</h2>
             <ul class="flicker_nav">
-              <li><a href="#"><img src="images/75x75.jpg" alt=""></a></li>
-              <li><a href="#"><img src="images/75x75.jpg" alt=""></a></li>
-              <li><a href="#"><img src="images/75x75.jpg" alt=""></a></li>
-              <li><a href="#"><img src="images/75x75.jpg" alt=""></a></li>
-              <li><a href="#"><img src="images/75x75.jpg" alt=""></a></li>
-              <li><a href="#"><img src="images/75x75.jpg" alt=""></a></li>
-              <li><a href="#"><img src="images/75x75.jpg" alt=""></a></li>
-              <li><a href="#"><img src="images/75x75.jpg" alt=""></a></li>
+              <li><a href="#"><img src="<%=request.getContextPath() %>/templates/public/images/75x75.jpg" alt=""></a></li>
+              <li><a href="#"><img src="<%=request.getContextPath() %>/templates/public/images/75x75.jpg" alt=""></a></li>
+              <li><a href="#"><img src="<%=request.getContextPath() %>/templates/public/images/75x75.jpg" alt=""></a></li>
+              <li><a href="#"><img src="<%=request.getContextPath() %>/templates/public/images/75x75.jpg" alt=""></a></li>
+              <li><a href="#"><img src="<%=request.getContextPath() %>/templates/public/images/75x75.jpg" alt=""></a></li>
+              <li><a href="#"><img src="<%=request.getContextPath() %>/templates/public/images/75x75.jpg" alt=""></a></li>
+              <li><a href="#"><img src="<%=request.getContextPath() %>/templates/public/images/75x75.jpg" alt=""></a></li>
+              <li><a href="#"><img src="<%=request.getContextPath() %>/templates/public/images/75x75.jpg" alt=""></a></li>
             </ul>
           </div>
         </div>
@@ -48,7 +48,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <div class="footer_bottom_left">
-            <p>Copyright &copy; 2045 <a href="index.html">magExpress</a></p>
+            <p>Copyright &copy; 2045 <a href="index.jsp">magExpress</a></p>
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -60,10 +60,10 @@
     </div>
   </div>
 </footer>
-<script src="assets/js/jquery.min.js"></script> 
-<script src="assets/js/bootstrap.min.js"></script> 
-<script src="assets/js/wow.min.js"></script> 
-<script src="assets/js/slick.min.js"></script> 
-<script src="assets/js/custom.js"></script>
+<script src="<%=request.getContextPath() %>/templates/public/assets/js/jquery.min.js"></script> 
+<script src="<%=request.getContextPath() %>/templates/public/assets/js/bootstrap.min.js"></script> 
+<script src="<%=request.getContextPath() %>/templates/public/assets/js/wow.min.js"></script> 
+<script src="<%=request.getContextPath() %>/templates/public/assets/js/slick.min.js"></script> 
+<script src="<%=request.getContextPath() %>/templates/public/assets/js/custom.js"></script>
 </body>
 </html>
