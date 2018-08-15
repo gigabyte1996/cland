@@ -7,8 +7,6 @@
     <script src="<%=request.getContextPath() %>/templates/admin/assets/js/jquery-1.10.2.js"></script>
       <!-- BOOTSTRAP SCRIPTS -->
     <script src="<%=request.getContextPath() %>/templates/admin/assets/js/bootstrap.min.js"></script>
-    <!-- METISMENU SCRIPTS -->
-    <script src="<%=request.getContextPath() %>/templates/admin/assets/js/jquery.metisMenu.js"></script>
      <!-- DATA TABLE SCRIPTS -->
     <script src="<%=request.getContextPath() %>/templates/admin/assets/js/dataTables/jquery.dataTables.js"></script>
     <script src="<%=request.getContextPath() %>/templates/admin/assets/js/dataTables/dataTables.bootstrap.js"></script>

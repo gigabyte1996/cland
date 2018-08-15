@@ -1,15 +1,16 @@
 package model.bean;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class News {
 	private int id;
 	private String title;
 	private String contain;
-	private Date date_create;
+	private Timestamp date_create;
 	private String image;
 	private int idCat;
-	public News(int id, String title, String contain, Date date_create, String image, int idCat) {
+	public News(int id, String title, String contain, Timestamp date_create, String image, int idCat) {
 		super();
 		this.id = id;
 		this.title = title;
@@ -40,10 +41,10 @@ public class News {
 	public void setContain(String contain) {
 		this.contain = contain;
 	}
-	public Date getDate_create() {
+	public Timestamp getDate_create() {
 		return date_create;
 	}
-	public void setDate_create(Date date_create) {
+	public void setDate_create(Timestamp date_create) {
 		this.date_create = date_create;
 	}
 	public String getImage() {

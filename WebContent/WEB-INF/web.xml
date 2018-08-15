@@ -17,4 +17,12 @@
     <servlet-name>PublicIndexController</servlet-name>
     <url-pattern>/index</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>PublicIndexNewsController</servlet-name>
+    <servlet-class>controller.PublicIndexNewsController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicIndexNewsController</servlet-name>
+    <url-pattern>/news</url-pattern>
+  </servlet-mapping>
 </web-app>
