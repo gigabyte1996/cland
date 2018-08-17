@@ -1,6 +1,6 @@
 package model.bean;
 
-public class Categories {
+public class Category {
 	private int idCat;
 	private String name;
 	private int idSudcat;
@@ -22,13 +22,13 @@ public class Categories {
 	public void setIdSudcat(int idSudcat) {
 		this.idSudcat = idSudcat;
 	}
-	public Categories(int idCat, String name, int idSudcat) {
+	public Category(int idCat, String name, int idSudcat) {
 		super();
 		this.idCat = idCat;
 		this.name = name;
 		this.idSudcat = idSudcat;
 	}
-	public Categories() {
+	public Category() {
 		super();
 		// TODO Auto-generated constructor stub
 	}

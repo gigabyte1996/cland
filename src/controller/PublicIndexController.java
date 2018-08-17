@@ -26,17 +26,9 @@ public class PublicIndexController extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setCharacterEncoding("UTF-8");
+		ArrayList<News> news = newsDAO.getItems();
+		request.setAttribute("listNews", news);
 		
-//		int numberOfItems = newsDAO.numberOfItems();
-//		int numberOfPages = (int) Math.ceil((float)numberOfItems / DefineUtil.NUMBER_PER_PAGE);
-//		
-//		int currentPage = 1;
-//		try {
-//			currentPage = request.getParameter("page")
-//		}
-//		
-//		
-//		ArrayList<News> news = NewsDAO.getItemsPagination();
 		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/jsp/public/index.jsp");
 		rd.forward(request, response);
 	}
